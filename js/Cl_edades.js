@@ -3,5 +3,11 @@ export default class edades {
        
         this.edad = e;
     }
+    set Edad(e) {
+        this.edad = +e;
+    }
+    get Edad() {
+        return this.edad;
+    }
 
 }
